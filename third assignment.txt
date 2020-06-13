@@ -1,0 +1,22 @@
+const Person = {
+  firstname: 'Ayinembabazi',
+  lastname: 'Phionah'
+};
+console.log(Person.firstname);
+delete Person.firstname;
+console.log(Person.firstname);
+
+var money=15000;
+function accessLoan(){
+"is money >15000"?"you can now access a loan":"you can not access a loan";
+}
+console.log(money)
+
+
+var age=(21,36);
+var a=21;
+var b=36;
+function numb(){
+a==21||b==36;
+}
+console.log(age)
