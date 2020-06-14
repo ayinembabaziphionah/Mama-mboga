@@ -20,3 +20,35 @@ function numb(){
 a==21||b==36;
 }
 console.log(age)
+///////////////correction
+// delete operator
+const Person = {
+  firstname: 'Ayinembabazi',
+  lastname: 'Phionah'
+};
+console.log(Person.firstname);
+delete Person.firstname;
+console.log(Person.firstname);
+// conditional operator
+var money=15000;
+function accessLoan(){
+money > 60000 ? "you can now access a loan":"you can not access a loan";
+}
+console.log(money)
+// correct way
+function askForMoney(){
+  var Money = 100;
+  Money > 15000 ? console.log("You can access loan ") : console.log("You cannot access loan");
+}
+askForMoney()
+
+
+
+//or operator
+
+var a=21;
+var b=36;
+function numb(){
+a==21||b==3;
+}
+console.log(a==21||b==3)
